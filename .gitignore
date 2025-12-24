@@ -1,0 +1,18 @@
+cat > .gitignore <<'EOF'
+# Java compiled files
+*.class
+
+# Build output
+bin/
+out/
+target/
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+.project
+.classpath
+.settings/
+EOF
+
